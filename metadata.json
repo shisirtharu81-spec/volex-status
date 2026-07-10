@@ -1,0 +1,6 @@
+{
+  "name": "Discord Minecraft Server Status Bot",
+  "description": "A professional Discord bot and web dashboard to monitor Minecraft server status with a premium customizable 1920x1080 visual status panel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,10 @@
+{
+  "javaIP": "rex-2.drexhost.in:19121",
+  "bedrockIP": "rex-2.drexhost.in",
+  "bedrockPort": 19121,
+  "store": "https://store.orangemc.net",
+  "website": "https://orangemc.net",
+  "discord": "https://discord.gg/example",
+  "logo": "./assets/logo.png",
+  "background": "./assets/background.png"
+}
