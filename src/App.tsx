@@ -464,12 +464,12 @@ export default function App() {
     playSynthSound("warn");
     if (confirm("Are you sure you want to reset all configurations to Volex Network default values?")) {
       setConfig({
-        javaIP: "play.volex.net",
-        bedrockIP: "pe.volex.net",
-        bedrockPort: 19132,
-        store: "https://store.volex.net",
-        website: "https://volex.net",
-        discord: "https://discord.gg/volex",
+        javaIP: "rex-2.drexhost.in:19121",
+        bedrockIP: "rex-2.drexhost.in",
+        bedrockPort: 19121,
+        store: "https://volex-store.onrender.com",
+        website: "https://volex-store.onrender.com",
+        discord: "https://discord.gg/49M6Kg9N4p",
         logo: "",
         background: "",
       });
