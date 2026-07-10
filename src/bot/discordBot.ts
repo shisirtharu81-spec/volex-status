@@ -367,7 +367,7 @@ function createStatusEmbed(config: BotConfig, java: ServerStatusInfo, bedrock: S
   const playersMax = isOnline ? Math.max(java.playersMax, bedrock.playersMax) : 100;
 
   return new EmbedBuilder()
-    .setTitle("🟠 ORANGEMC NETWORK STATUS")
+    .setTitle("🟠 VOLEX NETWORK STATUS")
     .setColor(isOnline ? 0x22c55e : 0xef4444)
     .setDescription(
       isOnline
@@ -392,12 +392,12 @@ function createStatusEmbed(config: BotConfig, java: ServerStatusInfo, bedrock: S
       },
       {
         name: "🛒 Web Store",
-        value: `[store.orangemc.net](${config.store})`,
+        value: `[volex-store.onrender.com](${config.store})`,
         inline: true,
       },
       {
         name: "🌐 Official Website",
-        value: `[orangemc.net](${config.website})`,
+        value: `[volex-store.onrender.com](${config.website})`,
         inline: true,
       },
       {
