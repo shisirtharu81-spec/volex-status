@@ -392,7 +392,7 @@ function createStatusEmbed(config: BotConfig, java: ServerStatusInfo, bedrock: S
       },
       {
         name: "🛒 Web Store",
-        value: `[volex-store.onrender.com](${config.store})`,
+        value: `[https://volex-store.onrender.com](${config.store})`,
         inline: true,
       },
       {
